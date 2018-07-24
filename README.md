@@ -1,8 +1,9 @@
-# Functional programming & Promise Async/Await exercise
+# File system modification tools
 
-## File system modification
+Node library exposing two functions:
+1. `getFiles(dir, includedExt)` - get files in `dir` recursively including only extensions specified in `includedExt`
+2. `removeFileOrDirectory(path)` - remove the file/dir specfied by `path`
 
-Recursively get files of a specified extension from directory.
-Remove a file or directory.
+`./App` contains dummy data to test on, `index.js` contains library.
 
-./App is just dummy data to test on, index.js contains main code
+Code was written as an exercise to practice functional programming and ES7 async/await. More for reading rather than running.
